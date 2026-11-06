@@ -9,6 +9,7 @@ by David M. Webb, licensed under
 
 - Only the tables listed in `scripts/webb_tables.txt` are extracted.
 - Tables are converted from MySQL dump format to Parquet. Column names are kept as published.
+- Identity-document number columns and exact birth month and day are removed from `people` (`HKID`, `HKIDsource`, `MOB`, `DOB`). Year of birth is kept.
 - For the CCASS `holdings` table, only the last recorded row for each issue and participant is kept (`ccass__holdings_latest`).
 - No values are edited.
 

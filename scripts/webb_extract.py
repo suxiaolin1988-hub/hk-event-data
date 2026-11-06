@@ -107,6 +107,7 @@ class TableSpec:
     mode: str = "full"
     keys: list[str] = field(default_factory=list)
     order: str | None = None
+    drop: set[str] = field(default_factory=set)
 
 
 def load_specs(path: str) -> dict[tuple[str, str], TableSpec]:
@@ -118,10 +119,14 @@ def load_specs(path: str) -> dict[tuple[str, str], TableSpec]:
                 continue
             parts = line.split()
             spec = TableSpec(schema=parts[0].lower(), table=parts[1].lower())
-            if len(parts) > 2 and parts[2] == "latest":
+            rest = parts[2:]
+            for item in [p for p in rest if p.startswith("drop=")]:
+                spec.drop |= {c.lower() for c in item[5:].split(",") if c}
+            rest = [p for p in rest if not p.startswith("drop=")]
+            if rest and rest[0] == "latest":
                 spec.mode = "latest"
-                spec.keys = parts[3].split(",")
-                spec.order = parts[4]
+                spec.keys = rest[1].split(",")
+                spec.order = rest[2]
             specs[(spec.schema, spec.table)] = spec
     return specs
 
@@ -281,6 +286,11 @@ class DumpReader:
             if table not in self.fast:
                 self.fast[table] = all(base_type(t) in INT_TYPES | FLOAT_TYPES | DATE_TYPES for _, t in cols)
             rows = fast_rows(values_text) if self.fast[table] else slow_rows(values_text)
+            if spec.drop:
+                keep = [i for i, (c, _) in enumerate(cols) if c.lower() not in spec.drop]
+                ncols = len(cols)
+                cols = [cols[i] for i in keep]
+                rows = (([r[i] for i in keep] if len(r) == ncols else r) for r in rows)
             if spec.mode == "latest":
                 self._latest(table, spec, cols, rows)
             else:

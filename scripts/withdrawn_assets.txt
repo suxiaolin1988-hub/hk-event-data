@@ -1,0 +1,4 @@
+# Release assets to delete at the start of each run if they were uploaded before the cutoff.
+# <release tag> <asset name> <cutoff, UTC ISO 8601>
+# 2026-11-06: first people extract included identity-number and birth-date columns.
+webb-251227 enigma__people.parquet 2026-11-06T08:00:00Z
