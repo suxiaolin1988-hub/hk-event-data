@@ -23,7 +23,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 
 CREATE_RE = re.compile(r"^CREATE TABLE `([^`]+)`", re.I)
-COLUMN_RE = re.compile(r"^\s*`([^`]+)`\s+([A-Za-z]+)")
+COLUMN_RE = re.compile(r"^\s*`([^`]+)`\s+([A-Za-z]+)(.*)$")
 INSERT_RE = re.compile(r"^INSERT INTO `([^`]+)`\s*(?:\(([^)]*)\))?\s*VALUES\s*", re.I)
 TOKEN_RE = re.compile(
     r"_binary\s*'(?:[^'\\]|\\.|'')*'"
@@ -66,8 +66,17 @@ def parse_value(tok: str):
     return tok
 
 
+INT64_MIN, INT64_MAX = -(2**63), 2**63 - 1
+
+
+def base_type(mysql_type: str) -> str:
+    return mysql_type.split()[0].lower()
+
+
 def arrow_type(mysql_type: str) -> pa.DataType:
-    t = mysql_type.lower()
+    t = base_type(mysql_type)
+    if t == "bigint" and "unsigned" in mysql_type.lower():
+        return pa.string()  # values can exceed int64
     if t in INT_TYPES:
         return pa.int64()
     if t in FLOAT_TYPES:
@@ -82,7 +91,8 @@ def convert(value, kind: str):
         if kind == "int":
             if isinstance(value, str) and value.startswith("b'"):
                 return int(value[2:-1] or "0", 2)
-            return int(value)
+            number = int(value)
+            return number if INT64_MIN <= number <= INT64_MAX else None
         if kind == "float":
             return float(value)
     except ValueError:
@@ -240,7 +250,8 @@ class DumpReader:
                 create_lines.append(line)
                 m = COLUMN_RE.match(line)
                 if m:
-                    self.columns[in_create].append((m.group(1), m.group(2)))
+                    unsigned = " unsigned" if "unsigned" in m.group(3).lower() else ""
+                    self.columns[in_create].append((m.group(1), m.group(2) + unsigned))
                 if line.startswith(")"):
                     self._ddl(create_lines)
                     in_create = None
@@ -268,7 +279,7 @@ class DumpReader:
                 continue
             values_text = line[m.end():]
             if table not in self.fast:
-                self.fast[table] = all(t.lower() in INT_TYPES | FLOAT_TYPES | DATE_TYPES for _, t in cols)
+                self.fast[table] = all(base_type(t) in INT_TYPES | FLOAT_TYPES | DATE_TYPES for _, t in cols)
             rows = fast_rows(values_text) if self.fast[table] else slow_rows(values_text)
             if spec.mode == "latest":
                 self._latest(table, spec, cols, rows)
