@@ -1,0 +1,2291 @@
+{
+ "source": "Webb-site Repository by David M. Webb, CC BY 4.0",
+ "source_url": "https://drive.google.com/drive/folders/13mzAvvufXC3QmH8OvMVx2juUi7qdnVLL",
+ "built_at": "2026-11-06T07:19:11+00:00",
+ "snapshots": {
+  "enigma": "251227",
+  "ccass": "251227"
+ },
+ "archives": {
+  "enigma": {
+   "name": "enigma251227.7z",
+   "drive_id": "1AUpdv6nXd5G46dyUU-ydDL4rEUjbeoz5"
+  },
+  "ccass": {
+   "name": "ccass251227.7z",
+   "drive_id": "1Kj8U5ToOH8AOyMf00oYAZr-rZNpjedmj"
+  }
+ },
+ "tables": {
+  "enigma.advisers": {
+   "mode": "full",
+   "rows": 5724,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__advisers.parquet",
+     "bytes": 19912,
+     "sha256": "92e71bd179ab63507f2a63c2f3db1ea8442e768dc5b88d9515eb3f341d519fb8"
+    }
+   ]
+  },
+  "enigma.adviserships": {
+   "mode": "full",
+   "rows": 131648,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__adviserships.parquet",
+     "bytes": 1599859,
+     "sha256": "2964bc79c2038a5f5066c8ef4d4ffe6f3f2a960be2c061bdcd41d1940f419c21"
+    }
+   ]
+  },
+  "enigma.directorships": {
+   "mode": "full",
+   "rows": 29848020,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__directorships.parquet",
+     "bytes": 357685661,
+     "sha256": "a7a4f15baf6ed0598501c1bd5cba8ed69cdee43e7cb2b415bca0d1f46e2a4a63"
+    },
+    {
+     "file": "enigma__directorships.part001.parquet",
+     "bytes": 67447923,
+     "sha256": "3ef8cce3dfb5c65cc0025f1961dd0887ac0e6b9b766a060b63de64cba4729701"
+    }
+   ]
+  },
+  "enigma.events": {
+   "mode": "full",
+   "rows": 125544,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__events.parquet",
+     "bytes": 2737742,
+     "sha256": "c6b054a954706746fc9b8e46ab269cc7fca8fc8ef57675acb839dda06de6625f"
+    }
+   ]
+  },
+  "enigma.issue": {
+   "mode": "full",
+   "rows": 35853,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__issue.parquet",
+     "bytes": 321835,
+     "sha256": "b2b0f134853701ce286e7d1d74138705059eb4ebe43f38a7a63fbd4a1f8ee3fd"
+    }
+   ]
+  },
+  "enigma.listings": {
+   "mode": "full",
+   "rows": 79,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__listings.parquet",
+     "bytes": 2847,
+     "sha256": "4af50cf76f79c52cea077e5f636deb0d9bb0ef6b49f8312cd0c22b2aa008ab95"
+    }
+   ]
+  },
+  "enigma.organisations": {
+   "mode": "full",
+   "rows": 19734419,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__organisations.parquet",
+     "bytes": 718683089,
+     "sha256": "ea3d7b25db987b24abc64b6666c05916a79cf7cb0c03fdc98737b2b28772b7ef"
+    }
+   ]
+  },
+  "enigma.people": {
+   "mode": "full",
+   "rows": 14611943,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__people.parquet",
+     "bytes": 443085045,
+     "sha256": "5956fef8fe13bba3421cab18fcbc07e6bd2005c350acc90653cde02c4d9a999a"
+    }
+   ]
+  },
+  "enigma.positions": {
+   "mode": "full",
+   "rows": 659,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__positions.parquet",
+     "bytes": 14888,
+     "sha256": "89b22a3175199bf2301a9e86ff87a45ca8ae0b24cb818d9816cbcf166beba2ae"
+    }
+   ]
+  },
+  "enigma.rank": {
+   "mode": "full",
+   "rows": 8,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__rank.parquet",
+     "bytes": 1210,
+     "sha256": "eaf2d79ca17687f43e97d3b1f7ed482a655a28c7a2b8bf20836a10de269dd476"
+    }
+   ]
+  },
+  "enigma.roles": {
+   "mode": "full",
+   "rows": 41,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__roles.parquet",
+     "bytes": 2324,
+     "sha256": "61fd987ac26dd3e4b2102273e819cd3c201159edc997b58b832ab14134db9dc3"
+    }
+   ]
+  },
+  "enigma.sectypes": {
+   "mode": "full",
+   "rows": 52,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__sectypes.parquet",
+     "bytes": 2656,
+     "sha256": "a3b38a9c135cbc800ccd4adc1dee1c6a9624731b1d07cee7b74ebca4326f8ac4"
+    }
+   ]
+  },
+  "enigma.sholdings": {
+   "mode": "full",
+   "rows": 125156,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__sholdings.parquet",
+     "bytes": 1738347,
+     "sha256": "645394745625a46e64d23d7e5213d2d214e21f16310b6442573fc862bbf7f0ac"
+    }
+   ]
+  },
+  "enigma.status": {
+   "mode": "full",
+   "rows": 4,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__status.parquet",
+     "bytes": 810,
+     "sha256": "ca36a18f5327673ba94ad199b2ae33970da0b8c43794d88a2f0ea4710a8a8019"
+    }
+   ]
+  },
+  "enigma.stocklistings": {
+   "mode": "full",
+   "rows": 16354,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__stocklistings.parquet",
+     "bytes": 464632,
+     "sha256": "ecf4642b4a7d3500fdfd025be382db37f6e44360e6a70ea4e37e84f002b8a5b1"
+    }
+   ]
+  },
+  "ccass.calendar": {
+   "mode": "full",
+   "rows": 8137,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "ccass__calendar.parquet",
+     "bytes": 47415,
+     "sha256": "4f2505f0821a3daa50075c6d3471b67ec2781f73ba964fdde328c2a9ad7c49c8"
+    }
+   ]
+  },
+  "ccass.dailylog": {
+   "mode": "full",
+   "rows": 9657064,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "ccass__dailylog.parquet",
+     "bytes": 161134665,
+     "sha256": "56668a9f8d8e1da76a6b102b01c74029d298bbfcba64f0035e8a6da8f1fb5d16"
+    }
+   ]
+  },
+  "ccass.participants": {
+   "mode": "full",
+   "rows": 1746,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "ccass__participants.parquet",
+     "bytes": 40839,
+     "sha256": "7ca4b28d4773a3aa45200a44d1e63a2ad20138dbe9cb3ffa8d04195dbbd226f2"
+    }
+   ]
+  },
+  "ccass.quotes": {
+   "mode": "full",
+   "rows": 16895563,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "ccass__quotes.parquet",
+     "bytes": 196848615,
+     "sha256": "89fbcd491fc23a40f13d93f7694b0ddb64f85cba2f0c656c74318fc1acc47f01"
+    }
+   ]
+  },
+  "ccass.holdings_latest": {
+   "mode": "latest",
+   "source_rows": 231512528,
+   "rows": 1321359,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "ccass__holdings_latest.parquet",
+     "bytes": 4600029,
+     "sha256": "97db97aefe015f8be49301ea1abacc61e86a79b37b37728bcc01b37f7bc46c71"
+    }
+   ]
+  }
+ },
+ "dump_summary": {
+  "enigma": {
+   "tables_seen": [
+    "acdata",
+    "acitems",
+    "activity",
+    "adjustments",
+    "advisers",
+    "adviserships",
+    "airlines",
+    "airports",
+    "alias",
+    "bbexch",
+    "bodytype",
+    "buybacklog",
+    "campaign",
+    "capacity",
+    "capchanges",
+    "capchangetypes",
+    "casetypes",
+    "categories",
+    "cattree",
+    "chartitems",
+    "charts",
+    "charttypes",
+    "classifications",
+    "codeshare",
+    "comeets",
+    "comex",
+    "compos",
+    "coms",
+    "corpwords",
+    "courts",
+    "currencies",
+    "currpair",
+    "data",
+    "dataitems",
+    "datasource",
+    "dateaccuracy",
+    "destor",
+    "directorships",
+    "dismodes",
+    "dlreasons",
+    "doctypes",
+    "documents",
+    "domchanges",
+    "domiciles",
+    "donations",
+    "dtsquotes",
+    "enginesize",
+    "entitlements",
+    "errorlog",
+    "ess",
+    "events",
+    "filingcodes",
+    "flights",
+    "forexrates",
+    "freg",
+    "freq",
+    "frstatus",
+    "fueltype",
+    "govac",
+    "govadopt",
+    "govitems",
+    "heldas",
+    "hkcrtypes",
+    "hkdistrict",
+    "hkexdata",
+    "hkports",
+    "hkpx",
+    "hkpxtypes",
+    "hkregion",
+    "issue",
+    "issuedshares",
+    "jails",
+    "jailtypes",
+    "judgments",
+    "landreg",
+    "licrec",
+    "licrecsum",
+    "lirorgteam",
+    "lirroles",
+    "lirstaff",
+    "lirteams",
+    "lirteamstaff",
+    "listings",
+    "log",
+    "lsadm",
+    "lsalias",
+    "lsdoms",
+    "lsemps",
+    "lsjobs",
+    "lsorgs",
+    "lsposts",
+    "lsppl",
+    "lsroles",
+    "marketsforweb",
+    "mergedpersons",
+    "missingcr",
+    "missingorg",
+    "months",
+    "namechanges",
+    "namesex",
+    "nationality",
+    "oldcr",
+    "oldcrf",
+    "oldlots",
+    "oldlsjobs",
+    "oldlsorgs",
+    "oldlsposts",
+    "oldlsppl",
+    "oldsfcids",
+    "olicrec",
+    "organisations",
+    "orgdata",
+    "orgtypes",
+    "ownerprof",
+    "ownerstks",
+    "ownertype",
+    "pay",
+    "payerrors",
+    "payerrtype",
+    "payfx",
+    "paylineerrors",
+    "paylineerrtype",
+    "payreview",
+    "people",
+    "persons",
+    "personstories",
+    "positions",
+    "prhblock",
+    "prhestate",
+    "prhflat",
+    "prisoners",
+    "prisorigin",
+    "ptoperators",
+    "qt",
+    "qtbytype",
+    "qtcentres",
+    "rank",
+    "relationships",
+    "relatives",
+    "reorg",
+    "repdocs",
+    "repfilings",
+    "roles",
+    "sdi",
+    "sdicap",
+    "sdievent",
+    "sdireason",
+    "sectypes",
+    "sfcnews",
+    "sfcshort",
+    "sholdings",
+    "snaplog",
+    "sources",
+    "statgov",
+    "stats",
+    "status",
+    "stocklistings",
+    "stories",
+    "storytags",
+    "tdjourneys",
+    "tdreglic",
+    "tempsfc",
+    "titles",
+    "tundir",
+    "tunnels",
+    "tuntraff",
+    "ukappres",
+    "ukch",
+    "ukchnats",
+    "ukhons",
+    "uklog",
+    "uknonhuman",
+    "ukppl",
+    "users",
+    "vax",
+    "vaxcohorts",
+    "veengine",
+    "vehicleclass",
+    "vehiclefr",
+    "vehiclefuel",
+    "vehiclemakes",
+    "vehicletypos",
+    "web",
+    "webbhold",
+    "wsprivs",
+    "wsroles",
+    "wsroletabs"
+   ],
+   "insert_bytes": {
+    "organisations": 4176161772,
+    "directorships": 2818153031,
+    "people": 2362224933,
+    "ukppl": 703919810,
+    "nationality": 387760471,
+    "persons": 366723586,
+    "namechanges": 297434583,
+    "dtsquotes": 254101075,
+    "flights": 210786076,
+    "oldcr": 103941246,
+    "sdi": 90851962,
+    "prhflat": 87859214,
+    "entitlements": 59738783,
+    "licrec": 40704218,
+    "issuedshares": 37273201,
+    "pay": 34380033,
+    "judgments": 32066647,
+    "ess": 31638701,
+    "namesex": 31034423,
+    "sfcshort": 24793002,
+    "destor": 24535848,
+    "compos": 24452175,
+    "events": 24118577,
+    "repfilings": 24082676,
+    "codeshare": 22108434,
+    "documents": 17493073,
+    "sdievent": 11447783,
+    "adviserships": 9937717,
+    "sdicap": 9809720,
+    "sholdings": 8799300,
+    "oldlsppl": 7571720,
+    "capchanges": 6426426,
+    "ownerstks": 6325859,
+    "lsppl": 5443272,
+    "stories": 4266588,
+    "snaplog": 3863181,
+    "govac": 3338164,
+    "comeets": 2972332,
+    "vax": 2715387,
+    "payreview": 2674324,
+    "issue": 2542112,
+    "hkpx": 2527606,
+    "freg": 2492912,
+    "forexrates": 2453836,
+    "oldlsposts": 2230705,
+    "sfcnews": 2208697,
+    "filingcodes": 1868407,
+    "stocklistings": 1825057,
+    "ownerprof": 1820528,
+    "lsposts": 1706640,
+    "lsadm": 1645044,
+    "orgdata": 1644647,
+    "adjustments": 1565965,
+    "relatives": 1557275,
+    "govitems": 1285562,
+    "payfx": 1143828,
+    "web": 1112910,
+    "olicrec": 951385,
+    "oldcrf": 950630,
+    "personstories": 718735,
+    "vehiclefr": 698334,
+    "vehiclefuel": 574886,
+    "ukchnats": 528025,
+    "oldlsjobs": 474621,
+    "acdata": 461012,
+    "landreg": 443377,
+    "lsjobs": 429682,
+    "tuntraff": 426771,
+    "ukappres": 385815,
+    "repdocs": 384470,
+    "hkexdata": 319326,
+    "alias": 299798,
+    "data": 290436,
+    "oldlsorgs": 244736,
+    "comex": 236470,
+    "lirorgteam": 227424,
+    "tdreglic": 212135,
+    "tdjourneys": 184547,
+    "lsorgs": 160944,
+    "mergedpersons": 155967,
+    "lsemps": 154751,
+    "uknonhuman": 137498,
+    "paylineerrors": 130528,
+    "qt": 115731,
+    "payerrors": 94968,
+    "licrecsum": 76395,
+    "oldlots": 75801,
+    "prhblock": 64580,
+    "advisers": 52318,
+    "storytags": 48627,
+    "classifications": 45673,
+    "missingcr": 43031,
+    "positions": 40214,
+    "lsalias": 37302,
+    "airports": 35269,
+    "qtbytype": 31133,
+    "airlines": 30601,
+    "prisoners": 26112,
+    "veengine": 24774,
+    "domiciles": 22483,
+    "wsprivs": 18451,
+    "prhestate": 14436,
+    "users": 14046,
+    "donations": 12067,
+    "lirteamstaff": 11610,
+    "reorg": 8086,
+    "sources": 7862,
+    "vehicleclass": 6200,
+    "statgov": 6065,
+    "log": 5397,
+    "capchangetypes": 5014,
+    "dataitems": 4754,
+    "sdireason": 4667,
+    "categories": 4666,
+    "casetypes": 4565,
+    "vehiclemakes": 4341,
+    "missingorg": 4323,
+    "domchanges": 3931,
+    "lirstaff": 3718,
+    "govadopt": 3600,
+    "listings": 2834,
+    "stats": 2689,
+    "lsdoms": 2554,
+    "sectypes": 2450,
+    "acitems": 2398,
+    "bbexch": 2327,
+    "roles": 2307,
+    "tunnels": 1978,
+    "titles": 1880,
+    "qtcentres": 1823,
+    "ukch": 1564,
+    "capacity": 1556,
+    "orgtypes": 1477,
+    "jails": 1333,
+    "lirteams": 1310,
+    "webbhold": 1206,
+    "ukhons": 1111,
+    "cattree": 1069,
+    "chartitems": 984,
+    "dismodes": 878,
+    "datasource": 840,
+    "vaxcohorts": 804,
+    "prisorigin": 766,
+    "corpwords": 739,
+    "charts": 734,
+    "wsroletabs": 731,
+    "oldsfcids": 679,
+    "hkdistrict": 548,
+    "payerrtype": 544,
+    "activity": 522,
+    "ownertype": 506,
+    "relationships": 484,
+    "dlreasons": 447,
+    "paylineerrtype": 432,
+    "courts": 413,
+    "hkports": 408,
+    "doctypes": 384,
+    "uklog": 381,
+    "currencies": 345,
+    "wsroles": 314,
+    "bodytype": 308,
+    "hkcrtypes": 293,
+    "vehicletypos": 243,
+    "enginesize": 238,
+    "ptoperators": 232,
+    "rank": 226,
+    "coms": 183,
+    "jailtypes": 181,
+    "tundir": 175,
+    "fueltype": 167,
+    "lirroles": 165,
+    "campaign": 154,
+    "lsroles": 152,
+    "months": 152,
+    "currpair": 123,
+    "hkregion": 120,
+    "hkpxtypes": 103,
+    "tempsfc": 102,
+    "frstatus": 94,
+    "buybacklog": 83,
+    "dateaccuracy": 77,
+    "heldas": 74,
+    "freq": 70,
+    "marketsforweb": 70,
+    "status": 67,
+    "charttypes": 57
+   },
+   "columns": {
+    "acdata": [
+     "acItem int unsigned",
+     "atDate date",
+     "acVal double"
+    ],
+    "acitems": [
+     "ID int unsigned",
+     "datasource int unsigned",
+     "sourceName varchar",
+     "dispName varchar",
+     "type varchar",
+     "refDate bit"
+    ],
+    "activity": [
+     "ID tinyint unsigned",
+     "actName varchar"
+    ],
+    "adjustments": [
+     "issueID int unsigned",
+     "exDate date",
+     "cumAdjust double unsigned"
+    ],
+    "advisers": [
+     "PersonID int unsigned"
+    ],
+    "adviserships": [
+     "Company int unsigned",
+     "Adviser int unsigned",
+     "Role tinyint",
+     "AddDate date",
+     "AddAcc tinyint unsigned",
+     "RemDate date",
+     "RemAcc tinyint unsigned",
+     "ID int unsigned",
+     "modified timestamp"
+    ],
+    "airlines": [
+     "ICAO char",
+     "enName varchar",
+     "tcName varchar",
+     "scName varchar"
+    ],
+    "airports": [
+     "IATA char",
+     "enName varchar",
+     "tcName varchar",
+     "scName varchar",
+     "country varchar"
+    ],
+    "alias": [
+     "ID int",
+     "personID int unsigned",
+     "n1 varchar",
+     "n2 varchar",
+     "cn varchar",
+     "alias bit",
+     "dn1 varchar",
+     "dn2 varchar",
+     "userID mediumint unsigned"
+    ],
+    "bbexch": [
+     "ID tinyint unsigned",
+     "des varchar",
+     "name varchar",
+     "fileDate date",
+     "mapTo tinyint unsigned"
+    ],
+    "bodytype": [
+     "ID tinyint unsigned",
+     "des varchar"
+    ],
+    "buybacklog": [
+     "LastRun datetime",
+     "mainBoardDate date",
+     "GEMDate date"
+    ],
+    "campaign": [
+     "CampID tinyint unsigned",
+     "CampText varchar",
+     "Recipient int unsigned"
+    ],
+    "capacity": [
+     "ID smallint unsigned",
+     "capShort varchar",
+     "capLong varchar"
+    ],
+    "capchanges": [
+     "CCID int unsigned",
+     "IssueID mediumint unsigned",
+     "EffDate date",
+     "CapChangeType tinyint unsigned",
+     "exchID tinyint unsigned",
+     "shares int",
+     "Value double",
+     "Price float",
+     "Currency tinyint",
+     "Descrip varchar",
+     "fileDate date"
+    ],
+    "capchangetypes": [
+     "CapChangeType tinyint unsigned",
+     "Change varchar",
+     "NegDescrip varchar",
+     "Descrip varchar",
+     "dist bit",
+     "likestr varchar"
+    ],
+    "casetypes": [
+     "ID tinyint unsigned",
+     "prefix varchar",
+     "des varchar",
+     "courtID tinyint unsigned"
+    ],
+    "categories": [
+     "ID smallint unsigned",
+     "Name varchar"
+    ],
+    "cattree": [
+     "ChildCat smallint unsigned",
+     "ParentCat smallint unsigned"
+    ],
+    "chartitems": [
+     "chartID smallint unsigned",
+     "dataitem smallint unsigned",
+     "typeID tinyint unsigned",
+     "negate bit"
+    ],
+    "charts": [
+     "ID smallint unsigned",
+     "title varchar",
+     "quant bit"
+    ],
+    "charttypes": [
+     "ID tinyint unsigned",
+     "name varchar"
+    ],
+    "classifications": [
+     "Company int unsigned",
+     "Category smallint unsigned"
+    ],
+    "codeshare": [
+     "flightID int",
+     "flightNo varchar",
+     "airline char"
+    ],
+    "comeets": [
+     "orgID int unsigned",
+     "comID tinyint unsigned",
+     "atDate date",
+     "mtngs tinyint unsigned",
+     "userID mediumint unsigned",
+     "modified timestamp"
+    ],
+    "comex": [
+     "orgID int unsigned",
+     "atDate date",
+     "comID tinyint unsigned"
+    ],
+    "compos": [
+     "orgID int unsigned",
+     "dirID int unsigned",
+     "comID tinyint unsigned",
+     "atDate date",
+     "posn tinyint unsigned",
+     "userID mediumint unsigned",
+     "modified timestamp",
+     "attend tinyint unsigned",
+     "mtngs tinyint unsigned"
+    ],
+    "coms": [
+     "ID tinyint unsigned",
+     "comName varchar"
+    ],
+    "corpwords": [
+     "word varchar"
+    ],
+    "courts": [
+     "ID tinyint unsigned",
+     "des varchar",
+     "ncPref varchar"
+    ],
+    "currencies": [
+     "ID tinyint unsigned",
+     "currency varchar",
+     "HKEXcurr varchar"
+    ],
+    "currpair": [
+     "ID tinyint unsigned",
+     "curr1 tinyint unsigned",
+     "curr2 tinyint unsigned"
+    ],
+    "data": [
+     "item smallint unsigned",
+     "d date",
+     "v float"
+    ],
+    "dataitems": [
+     "ID smallint unsigned",
+     "ddes varchar",
+     "note varchar",
+     "dp tinyint unsigned",
+     "sv varchar",
+     "units varchar",
+     "freq tinyint unsigned",
+     "shortname varchar",
+     "source int unsigned"
+    ],
+    "datasource": [
+     "ID int unsigned",
+     "URL varchar",
+     "name varchar",
+     "swagger varchar",
+     "fieldlist varchar"
+    ],
+    "dateaccuracy": [
+     "AccID tinyint unsigned",
+     "AccText varchar"
+    ],
+    "destor": [
+     "flightID int",
+     "seq tinyint unsigned",
+     "IATA char"
+    ],
+    "directorships": [
+     "ID1 int unsigned",
+     "Company int unsigned",
+     "Director int unsigned",
+     "JoinedY smallint",
+     "ApptDate date",
+     "ApptAcc tinyint",
+     "ResDate date",
+     "ResAcc tinyint",
+     "positionID smallint unsigned",
+     "source tinyint unsigned",
+     "modified timestamp"
+    ],
+    "dismodes": [
+     "ID tinyint unsigned",
+     "disModeTxt varchar",
+     "UKuri varchar",
+     "UKapi varchar"
+    ],
+    "dlreasons": [
+     "ReasonID tinyint unsigned",
+     "Reason varchar"
+    ],
+    "doctypes": [
+     "DocTypeID tinyint",
+     "DocShort varchar",
+     "DocLong varchar"
+    ],
+    "documents": [
+     "ID int unsigned",
+     "OrgID int unsigned",
+     "DocTypeID tinyint",
+     "RecordDate date",
+     "MidDay bit",
+     "ReportDate date",
+     "Adv bit",
+     "Dir bit",
+     "pay bit",
+     "SAI bit",
+     "modified timestamp",
+     "repID mediumint unsigned",
+     "resID mediumint unsigned",
+     "payPage smallint unsigned"
+    ],
+    "domchanges": [
+     "ID int unsigned",
+     "orgID int unsigned",
+     "dateChanged date",
+     "dateAcc tinyint unsigned",
+     "oldDom smallint unsigned",
+     "oldIncID varchar"
+    ],
+    "domiciles": [
+     "ID smallint unsigned",
+     "ShortName varchar",
+     "FullName varchar",
+     "HKExDomicile varchar",
+     "A2 varchar",
+     "friendly varchar",
+     "HKCR varchar"
+    ],
+    "donations": [
+     "Campaign tinyint unsigned",
+     "Donor int unsigned",
+     "DonCurr tinyint unsigned",
+     "DonAmnt int unsigned",
+     "Receipt smallint unsigned"
+    ],
+    "dtsquotes": [
+     "stockCode int unsigned",
+     "stockID int unsigned",
+     "date date",
+     "high float unsigned",
+     "low float unsigned",
+     "closing float unsigned",
+     "vol bigint unsigned",
+     "turn bigint unsigned",
+     "deals int unsigned",
+     "bid float unsigned",
+     "ask float unsigned",
+     "susp bit",
+     "last float unsigned"
+    ],
+    "enginesize": [
+     "ID tinyint unsigned",
+     "des varchar",
+     "TD varchar",
+     "TD2 varchar"
+    ],
+    "entitlements": [
+     "importID int unsigned",
+     "daily bit",
+     "AutoProcess bit",
+     "IgnoreRow bit",
+     "STOCK varchar",
+     "SEHKID int unsigned",
+     "IssueID mediumint unsigned",
+     "STK_NAME varchar",
+     "TYPE varchar",
+     "Announced date",
+     "YearEnd date",
+     "DETAILS_1 varchar",
+     "DETAILS_2 varchar",
+     "DETAILS_3 varchar",
+     "DETAILS_4 varchar",
+     "DETAILS_5 varchar",
+     "DETAILS_6 varchar",
+     "BookCloseFr date",
+     "BookCloseTo date",
+     "PayDate date",
+     "ExDate date",
+     "CapChangeType1 tinyint unsigned",
+     "Curr1 tinyint unsigned",
+     "Price1 double unsigned",
+     "PriceHKD1 double unsigned",
+     "Old1 double unsigned",
+     "New1 double unsigned",
+     "Date1 date",
+     "IssueID1 int unsigned",
+     "Descrip1 varchar",
+     "CapChangeType2 tinyint unsigned",
+     "Curr2 tinyint unsigned",
+     "Price2 double",
+     "PriceHKD2 double",
+     "Old2 double unsigned",
+     "New2 double unsigned",
+     "Date2 date",
+     "IssueID2 int unsigned",
+     "Descrip2 varchar",
+     "CapChangeType3 tinyint unsigned",
+     "Curr3 tinyint unsigned",
+     "Price3 double",
+     "PriceHKD3 double",
+     "Old3 double unsigned",
+     "New3 double unsigned",
+     "Date3 date",
+     "IssueID3 int unsigned",
+     "Descrip3 varchar",
+     "CapChangeType4 tinyint unsigned",
+     "Curr4 tinyint unsigned",
+     "Price4 double",
+     "PriceHKD4 double",
+     "Old4 double unsigned",
+     "New4 double unsigned",
+     "Date4 date",
+     "IssueID4 int unsigned",
+     "Descrip4 varchar",
+     "Event1 int unsigned",
+     "Event2 int unsigned",
+     "Event3 int unsigned",
+     "Event4 int unsigned",
+     "modified timestamp",
+     "col1 bit",
+     "col2 bit",
+     "col3 bit",
+     "col4 bit",
+     "col5 bit",
+     "col6 bit"
+    ],
+    "errorlog": [
+     "ID int unsigned",
+     "proc varchar",
+     "descrip varchar",
+     "errTime timestamp"
+    ],
+    "ess": [
+     "ID int unsigned",
+     "eName varchar",
+     "cName varchar",
+     "phase tinyint unsigned",
+     "amt int",
+     "heads int",
+     "orgID int unsigned",
+     "modified timestamp"
+    ],
+    "events": [
+     "eventID int unsigned",
+     "importID int unsigned",
+     "subEnt tinyint unsigned",
+     "issueID mediumint unsigned",
+     "announced date",
+     "eventType tinyint unsigned",
+     "yearEnd date",
+     "exDate date",
+     "bookCloseFr date",
+     "bookCloseTo date",
+     "acceptDate date",
+     "distDate date",
+     "new double unsigned",
+     "old double unsigned",
+     "currID tinyint unsigned",
+     "price double unsigned",
+     "priceHKD double unsigned",
+     "issue2 mediumint unsigned",
+     "notes varchar",
+     "cumDate date",
+     "cumPrice float unsigned",
+     "afterEvent int unsigned",
+     "adjust double unsigned",
+     "cancelDate date",
+     "modified timestamp",
+     "FXdate date",
+     "tempEntry bit"
+    ],
+    "filingcodes": [
+     "repID mediumint unsigned",
+     "sc mediumint unsigned"
+    ],
+    "flights": [
+     "ID int unsigned",
+     "sched datetime",
+     "flightNo varchar",
+     "airline varchar",
+     "actual datetime",
+     "terminal tinyint unsigned",
+     "aisle varchar",
+     "gate varchar",
+     "stand varchar",
+     "baggage tinyint unsigned",
+     "hall char",
+     "status varchar",
+     "arrival bit",
+     "cargo bit",
+     "cancelled bit",
+     "lastSeen datetime"
+    ],
+    "forexrates": [
+     "currpair tinyint unsigned",
+     "atDate date",
+     "rate float unsigned"
+    ],
+    "freg": [
+     "ID int unsigned",
+     "orgID int unsigned",
+     "hostDom smallint unsigned",
+     "regID varchar",
+     "regDate date",
+     "cesDate date",
+     "regUpd datetime"
+    ],
+    "freq": [
+     "ID tinyint unsigned",
+     "fdes varchar"
+    ],
+    "frstatus": [
+     "ID tinyint unsigned",
+     "des varchar"
+    ],
+    "fueltype": [
+     "ID tinyint unsigned",
+     "des varchar",
+     "friendly varchar"
+    ],
+    "govac": [
+     "d date",
+     "govItem smallint unsigned",
+     "ann bit",
+     "est int",
+     "act int",
+     "modified timestamp"
+    ],
+    "govadopt": [
+     "tree smallint unsigned",
+     "govitem smallint unsigned",
+     "parentID smallint unsigned",
+     "txt varchar",
+     "short varchar",
+     "priority tinyint"
+    ],
+    "govitems": [
+     "ID smallint unsigned",
+     "parentID smallint unsigned",
+     "h1 varchar",
+     "h2 varchar",
+     "h3 varchar",
+     "govtxt varchar",
+     "txt varchar",
+     "short varchar",
+     "firstd date",
+     "priority tinyint",
+     "approved int unsigned",
+     "rev bit",
+     "reimb bit",
+     "head bit",
+     "transfer bit"
+    ],
+    "heldas": [
+     "ID tinyint unsigned",
+     "heldAsTxt varchar"
+    ],
+    "hkcrtypes": [
+     "prefix varchar",
+     "CRtype varchar",
+     "orgType tinyint unsigned"
+    ],
+    "hkdistrict": [
+     "ID tinyint unsigned",
+     "en varchar",
+     "cn varchar",
+     "regionID tinyint unsigned"
+    ],
+    "hkexdata": [
+     "StockCode varchar",
+     "Domicile varchar",
+     "BoardLot int unsigned",
+     "NomPrice double",
+     "PriceDate datetime",
+     "IssueID mediumint unsigned",
+     "modified timestamp"
+    ],
+    "hkports": [
+     "ID tinyint unsigned",
+     "name varchar"
+    ],
+    "hkpx": [
+     "d date",
+     "port tinyint unsigned",
+     "pxType tinyint unsigned",
+     "arrivals int",
+     "departures int"
+    ],
+    "hkpxtypes": [
+     "ID tinyint unsigned",
+     "name varchar"
+    ],
+    "hkregion": [
+     "ID tinyint unsigned",
+     "en varchar",
+     "cn varchar"
+    ],
+    "issue": [
+     "ID1 mediumint unsigned",
+     "issuer int unsigned",
+     "SEHKID int",
+     "typeID tinyint unsigned",
+     "expmat date",
+     "expAcc tinyint unsigned",
+     "SEHKcurr tinyint unsigned",
+     "userID mediumint unsigned",
+     "coupon float",
+     "floating bit",
+     "HKEXwvr bit"
+    ],
+    "issuedshares": [
+     "issueID mediumint unsigned",
+     "atDate date",
+     "outstanding double",
+     "modified timestamp",
+     "userID mediumint unsigned"
+    ],
+    "jails": [
+     "ID tinyint unsigned",
+     "name varchar",
+     "type tinyint unsigned"
+    ],
+    "jailtypes": [
+     "ID tinyint unsigned",
+     "txt varchar"
+    ],
+    "judgments": [
+     "ID int unsigned",
+     "uploaded date",
+     "jDate date",
+     "DIS int unsigned",
+     "caseNum varchar",
+     "caseType tinyint unsigned",
+     "neutCit varchar",
+     "parties varchar",
+     "rep varchar",
+     "lang varchar",
+     "star bit",
+     "RV bit",
+     "RS bit",
+     "modified timestamp",
+     "caseYear smallint unsigned",
+     "caseSeq mediumint unsigned",
+     "ncYear smallint unsigned",
+     "ncSeq smallint unsigned"
+    ],
+    "landreg": [
+     "statID smallint unsigned",
+     "d date",
+     "units int",
+     "consid int"
+    ],
+    "licrec": [
+     "ID int unsigned",
+     "staffID int unsigned",
+     "orgID int unsigned",
+     "role tinyint unsigned",
+     "actType tinyint unsigned",
+     "startDate date",
+     "endDate date",
+     "modified timestamp"
+    ],
+    "licrecsum": [
+     "actType tinyint unsigned",
+     "d date",
+     "total mediumint unsigned",
+     "RO mediumint unsigned"
+    ],
+    "lirorgteam": [
+     "ID int unsigned",
+     "orgID int unsigned",
+     "teamID tinyint unsigned",
+     "firstseen date",
+     "lastseen date",
+     "dead bit"
+    ],
+    "lirroles": [
+     "ID tinyint unsigned",
+     "title varchar"
+    ],
+    "lirstaff": [
+     "ID smallint unsigned",
+     "n1 varchar",
+     "n2 varchar",
+     "cn varchar",
+     "tel int unsigned"
+    ],
+    "lirteams": [
+     "ID tinyint unsigned",
+     "teamno smallint unsigned",
+     "firstseen date",
+     "lastseen date"
+    ],
+    "lirteamstaff": [
+     "ID int unsigned",
+     "teamID tinyint unsigned",
+     "staffID smallint unsigned",
+     "posID tinyint unsigned",
+     "firstSeen date",
+     "lastSeen date",
+     "dead bit"
+    ],
+    "listings": [
+     "stockExID tinyint unsigned",
+     "shortName varchar",
+     "longName varchar"
+    ],
+    "log": [
+     "name varchar",
+     "val varchar",
+     "descrip varchar"
+    ],
+    "lsadm": [
+     "lsid int unsigned",
+     "lsdom tinyint unsigned",
+     "adm date",
+     "admAcc tinyint unsigned",
+     "modified timestamp"
+    ],
+    "lsalias": [
+     "lsid int unsigned",
+     "aliase varchar",
+     "aliasc varchar",
+     "firstSeen datetime"
+    ],
+    "lsdoms": [
+     "lsdom tinyint unsigned",
+     "domName varchar",
+     "domID smallint unsigned"
+    ],
+    "lsemps": [
+     "ID int unsigned",
+     "empName varchar",
+     "personID int unsigned",
+     "modified timestamp"
+    ],
+    "lsjobs": [
+     "ID int unsigned",
+     "lsppl int unsigned",
+     "empID int unsigned",
+     "firstSeen datetime",
+     "lastSeen datetime",
+     "dead bit"
+    ],
+    "lsorgs": [
+     "lsid int unsigned",
+     "lsename varchar",
+     "lscname varchar",
+     "tel varchar",
+     "name1 varchar",
+     "orgType tinyint unsigned",
+     "personID int unsigned",
+     "firstSeen datetime",
+     "lastSeen datetime",
+     "dead bit"
+    ],
+    "lsposts": [
+     "ID int unsigned",
+     "lsorg int unsigned",
+     "lsppl int unsigned",
+     "post tinyint unsigned",
+     "firstSeen datetime",
+     "lastSeen datetime",
+     "dead bit"
+    ],
+    "lsppl": [
+     "lsid int unsigned",
+     "lsename varchar",
+     "lscname varchar",
+     "admHK date",
+     "admAcc tinyint",
+     "name1 varchar",
+     "name2 varchar",
+     "cName varchar",
+     "sex varchar",
+     "personID int unsigned",
+     "modified timestamp",
+     "firstSeen datetime",
+     "lastSeen datetime",
+     "dead bit"
+    ],
+    "lsroles": [
+     "ID tinyint",
+     "posID smallint unsigned",
+     "LStxt varchar"
+    ],
+    "marketsforweb": [
+     "StockExID tinyint unsigned",
+     "Order tinyint"
+    ],
+    "mergedpersons": [
+     "oldp int unsigned",
+     "newp int unsigned",
+     "merged timestamp"
+    ],
+    "missingcr": [
+     "CR varchar",
+     "BRN varchar",
+     "eName varchar",
+     "cName varchar"
+    ],
+    "missingorg": [
+     "orgID int unsigned",
+     "added timestamp"
+    ],
+    "months": [
+     "MonthID tinyint",
+     "ShortName varchar"
+    ],
+    "namechanges": [
+     "ID1 int unsigned",
+     "personID int unsigned",
+     "oldName varchar",
+     "oldcName varchar",
+     "dateChanged date",
+     "dateAcc tinyint",
+     "modified timestamp",
+     "nameHash bigint unsigned",
+     "userID mediumint unsigned"
+    ],
+    "namesex": [
+     "ID mediumint unsigned",
+     "name varchar",
+     "sex varchar",
+     "added timestamp",
+     "dsex varchar",
+     "modified timestamp"
+    ],
+    "nationality": [
+     "personID int unsigned",
+     "UKCHnat smallint unsigned",
+     "latest date"
+    ],
+    "oldcr": [
+     "personID int unsigned",
+     "crn varchar",
+     "brn varchar"
+    ],
+    "oldcrf": [
+     "fregID int unsigned",
+     "crn varchar",
+     "brn varchar"
+    ],
+    "oldlots": [
+     "issueID int unsigned",
+     "until date",
+     "lot int unsigned"
+    ],
+    "oldlsjobs": [
+     "ID int unsigned",
+     "lsppl int unsigned",
+     "empID int unsigned",
+     "firstSeen datetime",
+     "lastSeen datetime",
+     "dead bit"
+    ],
+    "oldlsorgs": [
+     "lsid int unsigned",
+     "lsename varchar",
+     "lscname varchar",
+     "tel varchar",
+     "name1 varchar",
+     "orgType tinyint unsigned",
+     "personID int unsigned",
+     "firstSeen datetime",
+     "lastSeen datetime",
+     "dead bit"
+    ],
+    "oldlsposts": [
+     "ID int unsigned",
+     "lsorg int unsigned",
+     "lsppl int unsigned",
+     "post tinyint unsigned",
+     "firstSeen datetime",
+     "lastSeen datetime",
+     "dead bit"
+    ],
+    "oldlsppl": [
+     "lsid int unsigned",
+     "lsename varchar",
+     "lscname varchar",
+     "admHK date",
+     "admAcc tinyint",
+     "name1 varchar",
+     "name2 varchar",
+     "cName varchar",
+     "sex varchar",
+     "personID int unsigned",
+     "modified timestamp",
+     "firstSeen datetime",
+     "lastSeen datetime",
+     "dead bit"
+    ],
+    "oldsfcids": [
+     "SFCID char",
+     "SFCri bit",
+     "until date",
+     "orgID int unsigned"
+    ],
+    "olicrec": [
+     "ID int unsigned",
+     "orgID int unsigned",
+     "ri bit",
+     "actType tinyint unsigned",
+     "startDate date",
+     "endDate date",
+     "modified timestamp"
+    ],
+    "organisations": [
+     "PersonID int unsigned",
+     "Domicile smallint unsigned",
+     "Name1 varchar",
+     "modified timestamp",
+     "orgType tinyint unsigned",
+     "SFCID varchar",
+     "cName varchar",
+     "SFCupd datetime",
+     "incDate date",
+     "disDate date",
+     "disMode tinyint unsigned",
+     "incAcc tinyint unsigned",
+     "incID varchar",
+     "incUpd datetime",
+     "userID mediumint unsigned",
+     "incName bit",
+     "SFCri bit",
+     "UKURI bit",
+     "nameHash bigint unsigned"
+    ],
+    "orgdata": [
+     "PersonID int unsigned",
+     "YearEndDate tinyint",
+     "YearEndMonth tinyint",
+     "Addr1 varchar",
+     "Addr2 varchar",
+     "Addr3 varchar",
+     "District varchar",
+     "Territory smallint unsigned",
+     "AddrDate date",
+     "Notes mediumtext",
+     "modified timestamp",
+     "D&Afinal bit"
+    ],
+    "orgtypes": [
+     "orgType tinyint unsigned",
+     "typeName varchar",
+     "HKCRname varchar"
+    ],
+    "ownerprof": [
+     "orgID int unsigned",
+     "atDate date",
+     "dirStake double",
+     "famStake double",
+     "amStake double",
+     "govStake double",
+     "othStake double",
+     "OT tinyint",
+     "modified timestamp"
+    ],
+    "ownerstks": [
+     "orgID int unsigned",
+     "atDate date",
+     "ultimID int",
+     "OT tinyint unsigned",
+     "shares double unsigned",
+     "stake float unsigned",
+     "econShares double unsigned",
+     "econStake float unsigned",
+     "weakest float unsigned"
+    ],
+    "ownertype": [
+     "ID tinyint unsigned",
+     "ownShort varchar",
+     "ownLong varchar"
+    ],
+    "pay": [
+     "ID int unsigned",
+     "orgID int unsigned",
+     "pplID int unsigned",
+     "pRank tinyint unsigned",
+     "d date",
+     "currID tinyint unsigned",
+     "fees mediumint",
+     "salary mediumint",
+     "bonus mediumint",
+     "retire mediumint",
+     "share int",
+     "total int",
+     "userID mediumint unsigned",
+     "modified timestamp"
+    ],
+    "payerrors": [
+     "docID int unsigned",
+     "errID tinyint unsigned",
+     "userID mediumint",
+     "reported timestamp",
+     "resolvedBy mediumint unsigned",
+     "resolved timestamp"
+    ],
+    "payerrtype": [
+     "ID tinyint unsigned",
+     "txt varchar"
+    ],
+    "payfx": [
+     "d date",
+     "repCurr tinyint unsigned",
+     "dispCurr tinyint unsigned",
+     "f float unsigned"
+    ],
+    "paylineerrors": [
+     "payID int unsigned",
+     "errID tinyint unsigned",
+     "userID mediumint unsigned",
+     "reported timestamp",
+     "resolvedBy mediumint unsigned",
+     "resolved timestamp"
+    ],
+    "paylineerrtype": [
+     "ID tinyint unsigned",
+     "txt varchar",
+     "ord tinyint unsigned"
+    ],
+    "payreview": [
+     "docID int unsigned",
+     "userID mediumint unsigned",
+     "submitted timestamp"
+    ],
+    "people": [
+     "PersonID int unsigned",
+     "Sex varchar",
+     "YOB smallint unsigned",
+     "MOB tinyint unsigned",
+     "DOB tinyint unsigned",
+     "YOD smallint unsigned",
+     "MonD tinyint unsigned",
+     "DOD tinyint unsigned",
+     "TitleID tinyint unsigned",
+     "Name1 varchar",
+     "Name2 varchar",
+     "modified timestamp",
+     "HKID varchar",
+     "SFCID varchar",
+     "cName varchar",
+     "SFCupd datetime",
+     "SFClastDate date",
+     "HKIDsource varchar",
+     "userID mediumint unsigned",
+     "nameStem char",
+     "dn1 varchar",
+     "dn2 varchar",
+     "dSex varchar"
+    ],
+    "persons": [
+     "PersonID int unsigned"
+    ],
+    "personstories": [
+     "PersonID int unsigned",
+     "StoryID mediumint unsigned"
+    ],
+    "positions": [
+     "positionID smallint unsigned",
+     "posShort varchar",
+     "posLong varchar",
+     "status tinyint unsigned",
+     "rank tinyint unsigned",
+     "LSrole tinyint unsigned"
+    ],
+    "prhblock": [
+     "ID int unsigned",
+     "en varchar",
+     "cn varchar",
+     "estateID smallint unsigned"
+    ],
+    "prhestate": [
+     "ID smallint unsigned",
+     "en varchar",
+     "cn varchar",
+     "district tinyint unsigned",
+     "latitude double",
+     "longitude double"
+    ],
+    "prhflat": [
+     "ID int unsigned",
+     "blockID int unsigned",
+     "floor varchar",
+     "flat varchar",
+     "area float unsigned",
+     "elevator bit",
+     "firstSeen timestamp",
+     "lastSeen timestamp"
+    ],
+    "prisoners": [
+     "jail tinyint unsigned",
+     "d date",
+     "convict smallint unsigned",
+     "remand smallint unsigned",
+     "detain smallint unsigned"
+    ],
+    "prisorigin": [
+     "d date",
+     "local mediumint unsigned",
+     "MTM mediumint unsigned",
+     "nonlocal mediumint unsigned"
+    ],
+    "ptoperators": [
+     "ID tinyint unsigned",
+     "TDabbrev varchar",
+     "orgID int unsigned"
+    ],
+    "qt": [
+     "qtID tinyint unsigned",
+     "d date",
+     "capUnit smallint unsigned",
+     "useUnit smallint unsigned",
+     "pax smallint unsigned",
+     "availUnit smallint unsigned"
+    ],
+    "qtbytype": [
+     "d date",
+     "cumCC mediumint unsigned",
+     "cumNCC mediumint unsigned",
+     "CC smallint unsigned",
+     "NCC smallint unsigned"
+    ],
+    "qtcentres": [
+     "ID tinyint unsigned",
+     "name varchar",
+     "address varchar"
+    ],
+    "rank": [
+     "rankID tinyint unsigned",
+     "rankText varchar",
+     "rankShort varchar"
+    ],
+    "relationships": [
+     "ID tinyint unsigned",
+     "relation varchar",
+     "invRel varchar",
+     "level tinyint"
+    ],
+    "relatives": [
+     "Rel1 int unsigned",
+     "RelID tinyint unsigned",
+     "Rel2 int unsigned",
+     "modified timestamp",
+     "userID mediumint unsigned"
+    ],
+    "reorg": [
+     "fromOrg int unsigned",
+     "toOrg int unsigned",
+     "effDate date",
+     "effAcc tinyint unsigned"
+    ],
+    "repdocs": [
+     "repID mediumint unsigned",
+     "file varchar",
+     "docName varchar"
+    ],
+    "repfilings": [
+     "ID mediumint unsigned",
+     "repFiled datetime",
+     "URL varchar",
+     "descrip varchar",
+     "descrip2 varchar",
+     "docType tinyint unsigned",
+     "fsize mediumint unsigned",
+     "newsID int unsigned"
+    ],
+    "roles": [
+     "RoleID tinyint",
+     "Role varchar",
+     "OneTime bit",
+     "roleLong varchar"
+    ],
+    "sdi": [
+     "ID int unsigned",
+     "form tinyint",
+     "filing int",
+     "name1 varchar",
+     "name2 varchar",
+     "cName varchar",
+     "ccc varchar",
+     "stockCode varchar",
+     "stockName varchar",
+     "relDate date",
+     "awDate date",
+     "issueID mediumint unsigned",
+     "dir int unsigned",
+     "longShs1 double",
+     "longStk1 float",
+     "shortShs1 double",
+     "shortStk1 float",
+     "longShs2 double",
+     "longStk2 float",
+     "shortShs2 double",
+     "shortStk2 float",
+     "shsOut double",
+     "signDate date",
+     "curr tinyint unsigned",
+     "hiPrice float",
+     "avPrice float",
+     "avCon float",
+     "conCode tinyint unsigned",
+     "serNo char",
+     "serNoAmend char",
+     "serNoSuper char",
+     "modified timestamp"
+    ],
+    "sdicap": [
+     "sdiID int unsigned",
+     "capID smallint unsigned",
+     "posType tinyint unsigned",
+     "shares double"
+    ],
+    "sdievent": [
+     "sdiID int unsigned",
+     "posType tinyint",
+     "reason smallint unsigned",
+     "capBefore smallint unsigned",
+     "capAfter smallint unsigned",
+     "shsInv double",
+     "probReason smallint unsigned"
+    ],
+    "sdireason": [
+     "ID smallint unsigned",
+     "rsnSht varchar",
+     "rsnLng varchar"
+    ],
+    "sectypes": [
+     "typeID tinyint unsigned",
+     "typeShort varchar",
+     "typeLong varchar",
+     "listOrd tinyint unsigned",
+     "canExpire bit"
+    ],
+    "sfcnews": [
+     "StoryID mediumint",
+     "titleEN varchar",
+     "htmlEN text",
+     "issueDate datetime",
+     "modTime datetime",
+     "titleTC varchar",
+     "htmlTC text",
+     "SDA varchar"
+    ],
+    "sfcshort": [
+     "issueID int",
+     "atDate date",
+     "stockCode mediumint unsigned",
+     "stockName varchar",
+     "shares double",
+     "value double"
+    ],
+    "sholdings": [
+     "ID int unsigned",
+     "holderID int unsigned",
+     "issueID mediumint unsigned",
+     "atDate date",
+     "shares double unsigned",
+     "stake float",
+     "modified timestamp",
+     "userID mediumint unsigned",
+     "heldAs tinyint unsigned"
+    ],
+    "snaplog": [
+     "orgID int unsigned",
+     "snapDate date",
+     "userID mediumint unsigned",
+     "project tinyint unsigned",
+     "status bit",
+     "done bit",
+     "entered timestamp",
+     "modified timestamp",
+     "notes text"
+    ],
+    "sources": [
+     "sourceID smallint unsigned",
+     "sourceName varchar"
+    ],
+    "statgov": [
+     "descrip varchar",
+     "statsID smallint unsigned"
+    ],
+    "stats": [
+     "ID smallint unsigned",
+     "statName varchar"
+    ],
+    "status": [
+     "statusID tinyint unsigned",
+     "statusText varchar"
+    ],
+    "stocklistings": [
+     "IssueID mediumint unsigned",
+     "StockCode varchar",
+     "StockExID tinyint unsigned",
+     "FirstTradeDate date",
+     "FinalTradeDate date",
+     "DelistDate date",
+     "ID int",
+     "modified timestamp",
+     "ReasonID tinyint unsigned",
+     "2ndCtr bit",
+     "sedol varchar",
+     "isin varchar",
+     "stockId int unsigned"
+    ],
+    "stories": [
+     "StoryID mediumint unsigned",
+     "Title varchar",
+     "Summary text",
+     "StoryDate datetime",
+     "URL varchar",
+     "SourceID smallint unsigned",
+     "URL2 varchar",
+     "URL2text varchar",
+     "pubDate datetime",
+     "tweeted datetime",
+     "image varchar"
+    ],
+    "storytags": [
+     "storyID mediumint unsigned",
+     "catID smallint unsigned"
+    ],
+    "tdjourneys": [
+     "d date",
+     "vc tinyint unsigned",
+     "j int unsigned",
+     "km int unsigned",
+     "kmCH int unsigned",
+     "paxcap mediumint unsigned",
+     "provJ bit",
+     "provkm bit"
+    ],
+    "tdreglic": [
+     "d date",
+     "vc tinyint",
+     "FR smallint unsigned",
+     "totReg mediumint unsigned",
+     "totLic mediumint unsigned"
+    ],
+    "tempsfc": [
+     "orgID int unsigned",
+     "started date",
+     "ended date",
+     "role tinyint unsigned"
+    ],
+    "titles": [
+     "TitleID tinyint unsigned",
+     "Title varchar",
+     "Sex varchar"
+    ],
+    "tundir": [
+     "ID tinyint unsigned",
+     "defdir varchar",
+     "altdir varchar",
+     "defTD char",
+     "altTD char"
+    ],
+    "tunnels": [
+     "ID tinyint unsigned",
+     "TD varchar",
+     "name varchar",
+     "tundirID tinyint unsigned",
+     "TDtable varchar",
+     "notes text",
+     "opened date"
+    ],
+    "tuntraff": [
+     "tunID tinyint unsigned",
+     "vc tinyint unsigned",
+     "d date",
+     "defcnt mediumint unsigned",
+     "altcnt mediumint unsigned"
+    ],
+    "ukappres": [
+     "orgID int unsigned",
+     "CHID varchar",
+     "appDate date",
+     "resDate date",
+     "name varchar"
+    ],
+    "ukch": [
+     "UKtype tinyint unsigned",
+     "api varchar",
+     "meaning varchar",
+     "orgType tinyint unsigned"
+    ],
+    "ukchnats": [
+     "ID smallint unsigned",
+     "descrip varchar",
+     "domicile smallint unsigned",
+     "UKlist bit"
+    ],
+    "ukhons": [
+     "ukhons varchar"
+    ],
+    "uklog": [
+     "prefix char",
+     "lastCo int unsigned",
+     "domID smallint unsigned",
+     "lastCoAdded timestamp"
+    ],
+    "uknonhuman": [
+     "CHID varchar",
+     "name varchar",
+     "modified timestamp"
+    ],
+    "ukppl": [
+     "CHID varchar",
+     "personID int unsigned"
+    ],
+    "users": [
+     "ID mediumint unsigned",
+     "name varchar"
+    ],
+    "vax": [
+     "d date",
+     "cohort tinyint unsigned",
+     "male bit",
+     "prov bit",
+     "sino1 smallint unsigned",
+     "sino2 smallint unsigned",
+     "sino3 smallint unsigned",
+     "sino4 smallint unsigned",
+     "sino5 smallint unsigned",
+     "sino6 smallint unsigned",
+     "sino7 smallint unsigned",
+     "sino8 smallint unsigned",
+     "sino9 smallint unsigned",
+     "sino10 smallint unsigned",
+     "bion1 smallint unsigned",
+     "bion2 smallint unsigned",
+     "bion3 smallint unsigned",
+     "bion4 smallint unsigned",
+     "bion5 smallint unsigned",
+     "bion6 smallint unsigned",
+     "bion7 smallint unsigned",
+     "bion8 smallint unsigned",
+     "bion9 smallint unsigned",
+     "bion10 smallint unsigned"
+    ],
+    "vaxcohorts": [
+     "ID tinyint unsigned",
+     "txt varchar",
+     "govtxt varchar",
+     "minAge tinyint unsigned",
+     "popn mediumint unsigned",
+     "mpopn mediumint unsigned",
+     "fpopn mediumint unsigned",
+     "sino1 mediumint unsigned",
+     "sino2 mediumint unsigned",
+     "sino3 mediumint unsigned",
+     "bion1 mediumint unsigned",
+     "bion2 mediumint unsigned",
+     "bion3 mediumint unsigned"
+    ],
+    "veengine": [
+     "d date",
+     "engID tinyint unsigned",
+     "FR smallint unsigned",
+     "totReg mediumint unsigned"
+    ],
+    "vehicleclass": [
+     "ID tinyint unsigned",
+     "parent tinyint unsigned",
+     "fuelparent tinyint",
+     "jparent tinyint unsigned",
+     "des varchar",
+     "govType varchar",
+     "operator tinyint unsigned",
+     "DD bit",
+     "franchise tinyint unsigned"
+    ],
+    "vehiclefr": [
+     "vc tinyint unsigned",
+     "d date",
+     "makeID smallint unsigned",
+     "fuelID tinyint unsigned",
+     "bodyID tinyint unsigned",
+     "FRstatID tinyint unsigned",
+     "Freg smallint unsigned"
+    ],
+    "vehiclefuel": [
+     "d date",
+     "vc tinyint unsigned",
+     "fuelID tinyint unsigned",
+     "totReg mediumint unsigned",
+     "totLic mediumint unsigned"
+    ],
+    "vehiclemakes": [
+     "ID smallint unsigned",
+     "make varchar"
+    ],
+    "vehicletypos": [
+     "wrong varchar",
+     "correct varchar"
+    ],
+    "web": [
+     "ID int unsigned",
+     "PersonID int unsigned",
+     "URL varchar",
+     "source smallint unsigned",
+     "dead bit"
+    ],
+    "webbhold": [
+     "issueID mediumint unsigned",
+     "atDate date",
+     "shares int unsigned",
+     "stake float unsigned",
+     "filing varchar"
+    ],
+    "wsprivs": [
+     "userID mediumint unsigned",
+     "roleID tinyint unsigned",
+     "uRank tinyint unsigned",
+     "live bit"
+    ],
+    "wsroles": [
+     "ID tinyint unsigned",
+     "MSuser varchar",
+     "cred blob"
+    ],
+    "wsroletabs": [
+     "roleID tinyint unsigned",
+     "tblname varchar"
+    ]
+   }
+  },
+  "ccass": {
+   "tables_seen": [
+    "bigchanges",
+    "calendar",
+    "dailylog",
+    "holdings",
+    "missing",
+    "oldnames",
+    "parthold",
+    "participants",
+    "pquotes",
+    "quotes",
+    "sehkmonthend",
+    "shortnames",
+    "specialdays",
+    "unquotes"
+   ],
+   "insert_bytes": {
+    "holdings": 7256659411,
+    "parthold": 7256659411,
+    "quotes": 1586508534,
+    "dailylog": 849981959,
+    "bigchanges": 104730839,
+    "pquotes": 3067676,
+    "shortnames": 1640118,
+    "calendar": 333589,
+    "participants": 148371,
+    "specialdays": 43547,
+    "oldnames": 21812,
+    "sehkmonthend": 785
+   },
+   "columns": {
+    "bigchanges": [
+     "atDate date",
+     "issueID mediumint unsigned",
+     "partID smallint unsigned",
+     "stkchg float",
+     "prevDate date"
+    ],
+    "calendar": [
+     "tradeDate date",
+     "settleDate date",
+     "deferred bit"
+    ],
+    "dailylog": [
+     "atDate date",
+     "issueID mediumint unsigned",
+     "intermedHldg bigint unsigned",
+     "intermedCnt smallint unsigned",
+     "NCIPhldg bigint unsigned",
+     "NCIPcnt smallint unsigned",
+     "CIPhldg bigint unsigned",
+     "CIPcnt smallint unsigned",
+     "c5 bigint unsigned",
+     "c10 bigint unsigned",
+     "CustHldg bigint unsigned",
+     "BrokHldg bigint unsigned"
+    ],
+    "holdings": [
+     "partID smallint unsigned",
+     "issueID mediumint unsigned",
+     "holding bigint",
+     "atDate date"
+    ],
+    "missing": [
+     "atDate date",
+     "issueID mediumint unsigned",
+     "stockCode mediumint unsigned"
+    ],
+    "oldnames": [
+     "oldNameID int unsigned",
+     "oldName varchar",
+     "dateChanged date",
+     "partID smallint unsigned"
+    ],
+    "parthold": [
+     "partID smallint unsigned",
+     "issueID mediumint unsigned",
+     "holding bigint",
+     "atDate date"
+    ],
+    "participants": [
+     "partID smallint unsigned",
+     "CCASSID varchar",
+     "partName varchar",
+     "atDate date",
+     "addedDate date",
+     "personID int unsigned",
+     "hadHoldings bit"
+    ],
+    "pquotes": [
+     "issueID mediumint unsigned",
+     "atDate date",
+     "prevClose float unsigned",
+     "closing float unsigned",
+     "ask float unsigned",
+     "bid float unsigned",
+     "high float unsigned",
+     "low float unsigned",
+     "vol bigint unsigned",
+     "turn bigint unsigned",
+     "susp bit",
+     "newsusp bit",
+     "noclose bit"
+    ],
+    "quotes": [
+     "issueID mediumint unsigned",
+     "atDate date",
+     "prevClose float unsigned",
+     "closing float unsigned",
+     "ask float unsigned",
+     "bid float unsigned",
+     "high float unsigned",
+     "low float unsigned",
+     "vol bigint unsigned",
+     "turn bigint unsigned",
+     "susp bit",
+     "newsusp bit",
+     "noclose bit"
+    ],
+    "sehkmonthend": [
+     "monthEnd date"
+    ],
+    "shortnames": [
+     "issueID mediumint unsigned",
+     "shortName varchar",
+     "fromDate date",
+     "toDate date",
+     "ID int unsigned",
+     "stockCode varchar",
+     "useDate date",
+     "stockExID tinyint unsigned",
+     "parallel bit"
+    ],
+    "specialdays": [
+     "specialDate date",
+     "pubHol bit",
+     "partSess bit",
+     "noAM bit",
+     "noPM bit",
+     "noSettle bit"
+    ],
+    "unquotes": [
+     "stockCode mediumint unsigned",
+     "atDate date",
+     "prevClose float unsigned",
+     "closing float unsigned",
+     "ask float unsigned",
+     "bid float unsigned",
+     "high float unsigned",
+     "low float unsigned",
+     "vol bigint unsigned",
+     "turn bigint unsigned",
+     "susp bit",
+     "newsusp bit",
+     "noclose bit"
+    ]
+   }
+  }
+ }
+}
