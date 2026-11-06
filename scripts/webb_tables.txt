@@ -1,0 +1,32 @@
+# Tables to extract from the Webb-site dumps: <schema> <table> [latest <keys> <order column>]
+# Tables not listed are only measured (see data/webb/manifest.json -> dump_summary).
+
+# Issuers, securities and listings
+enigma organisations
+enigma issue
+enigma sectypes
+enigma stocklistings
+enigma listings
+enigma events
+
+# People and their positions
+enigma people
+enigma directorships
+enigma positions
+enigma status
+enigma rank
+
+# Advisers: auditors, financial advisers, underwriters, placing agents
+enigma adviserships
+enigma advisers
+enigma roles
+
+# Shareholding records collected by Webb
+enigma sholdings
+
+# CCASS participants, daily concentration and the last recorded holding per participant
+ccass participants
+ccass dailylog
+ccass calendar
+ccass quotes
+ccass holdings latest issueID,partID atDate
