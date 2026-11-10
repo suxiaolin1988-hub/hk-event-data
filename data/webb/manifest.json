@@ -1,7 +1,7 @@
 {
  "source": "Webb-site Repository by David M. Webb, CC BY 4.0",
  "source_url": "https://drive.google.com/drive/folders/13mzAvvufXC3QmH8OvMVx2juUi7qdnVLL",
- "built_at": "2026-11-06T07:54:51+00:00",
+ "built_at": "2026-11-10T01:41:45+00:00",
  "snapshots": {
   "enigma": "251227",
   "ccass": "251227"
@@ -41,6 +41,54 @@
     }
    ]
   },
+  "enigma.capacity": {
+   "mode": "full",
+   "rows": 33,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__capacity.parquet",
+     "bytes": 1802,
+     "sha256": "b167d37ea7251d4f4c702730f9cdd49faa1e96a8cebe256873237f02f06ec62f"
+    }
+   ]
+  },
+  "enigma.capchanges": {
+   "mode": "full",
+   "rows": 99588,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__capchanges.parquet",
+     "bytes": 1365442,
+     "sha256": "1660d8428595cc8297d55fc7564296b875c4f7d3f668a5e53a5784e21849d7a0"
+    }
+   ]
+  },
+  "enigma.capchangetypes": {
+   "mode": "full",
+   "rows": 61,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__capchangetypes.parquet",
+     "bytes": 3713,
+     "sha256": "93949b656807b1d5c51959b09b31c5e6402a98f7dd58977dd6b81c737a238a8e"
+    }
+   ]
+  },
+  "enigma.currencies": {
+   "mode": "full",
+   "rows": 19,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__currencies.parquet",
+     "bytes": 1255,
+     "sha256": "855cdc55a2ba25fb42602dac604f209f1bbd4c11d4636b9b22c2fb8bc8d9e275"
+    }
+   ]
+  },
   "enigma.directorships": {
    "mode": "full",
    "rows": 29848020,
@@ -55,6 +103,30 @@
      "file": "enigma__directorships.part001.parquet",
      "bytes": 67447923,
      "sha256": "3ef8cce3dfb5c65cc0025f1961dd0887ac0e6b9b766a060b63de64cba4729701"
+    }
+   ]
+  },
+  "enigma.dlreasons": {
+   "mode": "full",
+   "rows": 21,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__dlreasons.parquet",
+     "bytes": 1109,
+     "sha256": "d4aac7d53395ee82965698dfbefc18283ee5b1244b9ecb6e6477031e15686190"
+    }
+   ]
+  },
+  "enigma.domiciles": {
+   "mode": "full",
+   "rows": 328,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__domiciles.parquet",
+     "bytes": 15017,
+     "sha256": "da1cc07e71f822c6a6f802818d787f9ba22a9917794f5c5d48d5b1eff7886e30"
     }
    ]
   },
@@ -82,6 +154,18 @@
     }
    ]
   },
+  "enigma.issuedshares": {
+   "mode": "full",
+   "rows": 684413,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__issuedshares.parquet",
+     "bytes": 3655038,
+     "sha256": "55e5b8d1ca54008235b54ed039d56415e03346442acdb61c5672df5e2f1e1678"
+    }
+   ]
+  },
   "enigma.listings": {
    "mode": "full",
    "rows": 79,
@@ -103,6 +187,18 @@
      "file": "enigma__organisations.parquet",
      "bytes": 718683089,
      "sha256": "ea3d7b25db987b24abc64b6666c05916a79cf7cb0c03fdc98737b2b28772b7ef"
+    }
+   ]
+  },
+  "enigma.orgtypes": {
+   "mode": "full",
+   "rows": 43,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__orgtypes.parquet",
+     "bytes": 1932,
+     "sha256": "cbf814c0b05f40571bf02dfe33085f1f9e766e6f15b09c887ec9a52a2718f794"
     }
    ]
   },
@@ -154,6 +250,54 @@
     }
    ]
   },
+  "enigma.sdi": {
+   "mode": "full",
+   "rows": 341047,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__sdi.parquet",
+     "bytes": 13653994,
+     "sha256": "4b0b60ca4f1a5b0a01f3403a2143a4b8abe41888503e0fc5729403f9dd913e1a"
+    }
+   ]
+  },
+  "enigma.sdicap": {
+   "mode": "full",
+   "rows": 426219,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__sdicap.parquet",
+     "bytes": 2746855,
+     "sha256": "776bf885384ec4474faf7625d399fbf10a8c906a7820088e47d4db50a9d6b63a"
+    }
+   ]
+  },
+  "enigma.sdievent": {
+   "mode": "full",
+   "rows": 345355,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__sdievent.parquet",
+     "bytes": 2280936,
+     "sha256": "59d559695b2466ca724d48b5a93bffc58a2a91facdc2f4b4974dfd1aea82899f"
+    }
+   ]
+  },
+  "enigma.sdireason": {
+   "mode": "full",
+   "rows": 84,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "enigma__sdireason.parquet",
+     "bytes": 3090,
+     "sha256": "4e087ad9159cf7a979c88498a0d80a9276150d0bd33e1e39de9cf834ddc3cbdd"
+    }
+   ]
+  },
   "enigma.sectypes": {
    "mode": "full",
    "rows": 52,
@@ -202,6 +346,18 @@
     }
    ]
   },
+  "ccass.bigchanges": {
+   "mode": "full",
+   "rows": 2180130,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "ccass__bigchanges.parquet",
+     "bytes": 24710449,
+     "sha256": "073e957da64dcae521d78899ee5f054878297d0f9e09f6a16c13aab9b8c21761"
+    }
+   ]
+  },
   "ccass.calendar": {
    "mode": "full",
    "rows": 8137,
@@ -247,6 +403,18 @@
      "file": "ccass__quotes.parquet",
      "bytes": 196848615,
      "sha256": "89fbcd491fc23a40f13d93f7694b0ddb64f85cba2f0c656c74318fc1acc47f01"
+    }
+   ]
+  },
+  "ccass.shortnames": {
+   "mode": "full",
+   "rows": 18555,
+   "bad_rows": 0,
+   "files": [
+    {
+     "file": "ccass__shortnames.parquet",
+     "bytes": 389107,
+     "sha256": "1c9731385bde9d41fda7bfd1852e7216fc12b31d302950378a90ab52a9107079"
     }
    ]
   },
