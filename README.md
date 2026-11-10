@@ -6,7 +6,7 @@
 
 | 数据 | 来源 | 许可 | 位置 |
 | --- | --- | --- | --- |
-| Webb-site 数据库抽取：公司、证券、董事和高管任职、顾问（核数师、财务顾问、包销商等）、公司行动、股权记录、CCASS 参与者、每日集中度、历史行情、每个参与者最后一次记录的 CCASS 持股 | [Webb-site Repository](https://drive.google.com/drive/folders/13mzAvvufXC3QmH8OvMVx2juUi7qdnVLL)，David M. Webb | CC BY 4.0 | Release `webb-<快照日期>`；表清单、行数和校验值见 `data/webb/manifest.json`，建表语句见 `data/webb/schema/` |
+| Webb-site 数据库抽取：公司、证券、董事和高管任职、顾问（核数师、财务顾问、包销商等）、公司行动和股本变动、已发行股数、权益披露、股权记录、CCASS 参与者、每日集中度、大额变动、历史行情、每个参与者最后一次记录的 CCASS 持股 | [Webb-site Repository](https://drive.google.com/drive/folders/13mzAvvufXC3QmH8OvMVx2juUi7qdnVLL)，David M. Webb | CC BY 4.0 | Release `webb-<快照日期>`；表清单、行数和校验值见 `data/webb/manifest.json`，建表语句见 `data/webb/schema/` |
 
 Webb 的董事和顾问数据人工维护到 2025-03-31，CCASS 和行情数据到快照日期为止。
 

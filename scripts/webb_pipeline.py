@@ -94,6 +94,8 @@ def main() -> int:
         "source_url": "https://drive.google.com/drive/folders/13mzAvvufXC3QmH8OvMVx2juUi7qdnVLL",
         "built_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "snapshots": snaps,
+        "release": f"webb-{snapshot}",
+        "release_url": f"https://github.com/suxiaolin1988-hub/hk-event-data/releases/download/webb-{snapshot}/",
         "archives": {s: {"name": n, "drive_id": i} for s, (n, i) in chosen.items()},
         "tables": {},
         "dump_summary": {},
