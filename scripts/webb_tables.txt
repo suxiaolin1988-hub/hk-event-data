@@ -10,6 +10,13 @@ enigma sectypes
 enigma stocklistings
 enigma listings
 enigma events
+enigma capchangetypes
+enigma capchanges
+enigma issuedshares
+enigma currencies
+enigma domiciles
+enigma orgtypes
+enigma dlreasons
 
 # People and their positions
 enigma people drop=HKID,HKIDsource,MOB,DOB
@@ -23,12 +30,19 @@ enigma adviserships
 enigma advisers
 enigma roles
 
-# Shareholding records collected by Webb
+# Shareholding records collected by Webb, and disclosure-of-interest filings
 enigma sholdings
+enigma sdi
+enigma sdicap
+enigma sdievent
+enigma sdireason
+enigma capacity
 
 # CCASS participants, daily concentration and the last recorded holding per participant
 ccass participants
 ccass dailylog
 ccass calendar
 ccass quotes
+ccass shortnames
+ccass bigchanges
 ccass holdings latest issueID,partID atDate
