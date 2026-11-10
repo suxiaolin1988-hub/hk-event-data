@@ -6,6 +6,8 @@
   "enigma": "251227",
   "ccass": "251227"
  },
+ "release": "webb-251227",
+ "release_url": "https://github.com/suxiaolin1988-hub/hk-event-data/releases/download/webb-251227/",
  "archives": {
   "enigma": {
    "name": "enigma251227.7z",
